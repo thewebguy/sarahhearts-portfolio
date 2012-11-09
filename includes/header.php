@@ -31,7 +31,7 @@
 				
 					<nav class="menu pull-right">
 						<ul>
-							<li><a href="http://sarahhearts.com/contact/">Connect</a></li>
+							<li><a href="/portfolio/connect/">Connect</a></li>
 							<li><a href="http://sarahhearts.com">Blog</a></li>
 							<li><a href="http://www.etsy.com/shop/sarahhearts">Shop</a></li>
 						</ul>

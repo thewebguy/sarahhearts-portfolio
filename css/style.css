@@ -1,5 +1,5 @@
 body {
-	background: url(../img/stripe-bg.jpg);
+	background: url(/portfolio/img/stripe-bg.jpg);
 }
 
 .sarah-content {
@@ -10,7 +10,7 @@ body {
 }
 
 .sarah-name a {
-	background: url(../img/sarah-hearts-emblem.png) top left no-repeat;
+	background: url(/portfolio/img/sarah-hearts-emblem.png) top left no-repeat;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -77,7 +77,7 @@ body {
 
 	.nav-button a {
 		display: block;
-		background: url(../img/arrows.png);
+		background: url(/portfolio/img/arrows.png);
 		width: 53px;
 		height: 53px;
 		text-indent: -9999px;
