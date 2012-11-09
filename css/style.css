@@ -46,6 +46,8 @@ body {
 		float: left;
 	}
 	.menu li a {
+		position: relative;
+		z-index: 9;
 		border-right: 1px #7b7775 solid;
 		padding: 0 7px;
 		height: 14px;
@@ -123,157 +125,37 @@ body {
 	border: 2px #00AD19 solid;
 }
 
-/*body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+.about {
+	padding-top: 30px;
 }
 
-a {
-	color: #333;
-	text-decoration: underline;
+.social {
+	text-align: center;
+	padding-bottom: 5px;
 }
 
-.kev-name a {
-	text-decoration: none;
-}
-
-header,
-footer {
-	padding: 4em 0;
-	background-image: url(img/ice_age.png);
-
-	background-image: linear-gradient(bottom, rgb(51,55,97) 0%, rgb(82,98,119) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(51,55,97) 0%, rgb(82,98,119) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(51,55,97) 0%, rgb(82,98,119) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(51,55,97) 0%, rgb(82,98,119) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(51,55,97) 0%, rgb(82,98,119) 100%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, rgb(51,55,97)),
-		color-stop(1, rgb(82,98,119))
-	);
-	
-	box-shadow: inset 0 0 1em rgba(0,0,0,0.5);
-}
-
-footer {
-	margin-top: 2.5em;
-}
-
-footer h2 {
-	margin: 0;
-}
-
-h5 {
-	text-overflow: ellipsis;
-	overflow: hidden;
-}
-
-p, .ideas {
-	font-family: Georgia;
-	line-height: 1.7em;
-}
-
-.companies .row {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-.kev-name h1 a,
-.kev-name a {
-	background: #eee;
-	padding: 0.1em 0;
-}
-
-.kev-name h1 {
-	padding: 0.1em 0;
-}
-
-.kev-name span, .kev-name li a {
-	padding: 0.25em;
-}
-
-.kev-about {
-	color:#fff;
-}
-
-.kev-photo img {
-	margin: 0 0 1em 1em;
-	border: 0.5em #fff solid;
-	box-shadow: 0 0 2em rgba(255,255,255,.25);
-}
-
-.contact,
-.elsewhere {
-	margin-left: 0;
-	list-style: none;
-}
-
-h2 {
-	font-size: 24px;
-	margin-top: 2em;
-}
-
-hr {
-	margin: 0.5em 0;
-}
-
-.companies hr {
-	margin-bottom: 2em;
-}
-
-.ideas {
-	padding-left: 1em;
-}
-.ideas li {
-	margin-bottom: 0.5em;
-	color: rgb(100,100,100);
-}
-
-.connecting p {
-	margin-bottom: 1.5em;
-} 
 
 @media (max-width: 767px) {
 	body {
 		padding: 0 !important;
 	}
 	
-	.container {
-		padding: 0 2em;
+	.sarah-content {
+		padding: 0 30px;
 	}
 	
-	header .kev-name {
-		width: 70% !important;
-		float: left !important;
-		margin-bottom: 2em;
+	.sarah-name a {
+		padding: 78px 0 61px 145px;
 	}
-	.kev-photo {
-		width: 30% !important;
-		float: left !important;
+
+	.projects {
+		padding: 50px 0 0;
 	}
 }
 
-@media (max-width: 480px) {
-	.kev-photo img {
-		width: 150px;
+@media (max-width: 413px) {
+	.sarah-name a {
+		padding: 48px 0 80px 145px;
 	}
 }
 
-@media (max-width: 320px) {
-	.kev-photo {
-		width: 90px;
-	}
-	
-	header h1 {
-		font-size: 28px;
-	}
-
-	header ul {
-		font-size: 12px;
-	}
-}
-*/
